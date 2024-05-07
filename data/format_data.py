@@ -13,7 +13,7 @@ for lineIndex in range(1, len(lines)):
     if (splitLine[0] not in dictionary): 
         dictionary[splitLine[0]] = {}
     
-    dictionary[splitLine[0]] = float(splitLine[1])
+    dictionary[splitLine[0]]["emissions"] = float(splitLine[1])
 
 
 f1.close()

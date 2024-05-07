@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>City greens: Annual New York City Greenhouse Gas Emissions</title>
+    <title>Gas Emissions by State in Amerca (2021)</title>
   </head>
   <body>
     <h1>Hello, world!</h1>
@@ -13,19 +13,165 @@
 </html>
 </head>
 
-<body></body>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="about">Gas Emissions by State</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="macro">Macro</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdownMenuLink"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Micro
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            {% for state in states %}
+            <a class="dropdown-item" href="micro?state={{state}}"
+              >{{state}}</a
+            >
+            {% endfor %}
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <h1>About</h1>
+  <div class="accordion" id="accordionPanelsStayOpenExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button
+          class="accordion-button"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#panelsStayOpen-collapseOne"
+          aria-expanded="true"
+          aria-controls="panelsStayOpen-collapseOne"
+        >
+          Context
+        </button>
+      </h2>
+      <div
+        id="panelsStayOpen-collapseOne"
+        class="accordion-collapse collapse show"
+      >
+        <div class="accordion-body">
+          We began the project as a way to practice data representation and
+          other front end work like templating with Jinja as well as back end
+          work like Python Flask. I chose to focus on Greenhouse Gas emissions,
+          originally looking to focus on emissions in just NYC before expanding
+          to the entire country.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button
+          class="accordion-button collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#panelsStayOpen-collapseTwo"
+          aria-expanded="false"
+          aria-controls="panelsStayOpen-collapseTwo"
+        >
+          Data Pipeline
+        </button>
+      </h2>
+      <div
+        id="panelsStayOpen-collapseTwo"
+        class="accordion-collapse collapse"
+      >
+        <div class="accordion-body">
+          <p>
+            1. I retrieved data from
+            <a href="https://cfpub.epa.gov/ghgdata/inventoryexplorer/"
+              >The United States Environmental Protection Agency</a
+            >.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button
+          class="accordion-button collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#panelsStayOpen-collapseThree"
+          aria-expanded="false"
+          aria-controls="panelsStayOpen-collapseThree"
+        >
+          Prototype
+        </button>
+      </h2>
+      <div
+        id="panelsStayOpen-collapseThree"
+        class="accordion-collapse collapse"
+      >
+        <div class="accordion-body">
+          <img
+            src="./prototype.jpg"
+            alt="prototype"
+            width="50%"
+            height="50%"
+          />
+          <h3>Feedback</h3>
+          <p>
+            Will include feedback later
+          </p>
+          <h3>Takeaways</h3>
+          <p>
+            Same as feedback
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<h1>
-    City greens: Annual New York City Greenhouse Gas Emissions
-</h1>
+  <div></div>
 
-<h2>
-    By Elliott Arbogast
-</h2>
-
-    This project takes a deep dive into greenhouse gas emissions in New York City. It will examine years between 2005 and 2016 to compare the greenhouse gas emissions in New York City overtime. It will compare various gas emissions such as CO2, N20, CH4, and more.
-
-    {% include 'footer.html' %}
+  <footer>
+    All data from
+    <a href="https://cfpub.epa.gov/ghgdata/inventoryexplorer/"
+      >The United States Environmental Protection Agency</a
+    >.
+  </footer>
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"
+  ></script>
 </body>
 
 </html>
