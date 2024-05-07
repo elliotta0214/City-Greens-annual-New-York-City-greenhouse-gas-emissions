@@ -1,0 +1,15 @@
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="-320 0 600 300" width="70%" height="70%">
+    <rect class="bar" x="20" y="195" width="50  " height="{{usTotal/4}}"/>
+    <text class="label" x="45" y="245" text-anchor="middle">US Average</text>
+    {% for state in states %}
+        <rect class="bar" x="140" y="{{225 - emissions/4}}" width="50" height="{{emissions/4}}"/>
+    {% endfor %} 
+    <text class="label" x="165" y="245" text-anchor="middle">{{state}}</text>
+
+    <line class="grid" x1="10" y1="130.5" x2="200" y2="130.5"/>
+    <line class="grid" x1="10" y1="80.5" x2="200" y2="80.5"/>
+    <line class="grid" x1="10" y1="30.5" x2="200" y2="30.5"/>
+
+    <line class="axis" x1="10" y1="181" x2="200" y2="181" stroke-linecap="round"/>
+    <line class="axis" x1="10" y1="0" x2="10" y2="181" stroke-linecap="round"/>
+  </svg>  
