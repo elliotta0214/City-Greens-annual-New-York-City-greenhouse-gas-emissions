@@ -1,155 +1,155 @@
 {
     "Texas": {
-        "emissions": 873.111539
+        "emissions": 873
     },
     "California": {
-        "emissions": 393.3536758
+        "emissions": 393
     },
     "Florida": {
-        "emissions": 269.9661591
+        "emissions": 270
     },
     "Pennsylvania": {
-        "emissions": 267.7251644
+        "emissions": 268
     },
     "Ohio": {
-        "emissions": 235.415359
+        "emissions": 235
     },
     "Louisiana": {
-        "emissions": 224.5537785
+        "emissions": 225
     },
     "Illinois": {
-        "emissions": 223.380661
+        "emissions": 223
     },
     "Indiana": {
-        "emissions": 193.6309165
+        "emissions": 194
     },
     "New York": {
-        "emissions": 185.7409593
+        "emissions": 186
     },
     "Michigan": {
-        "emissions": 178.954465
+        "emissions": 179
     },
     "Missouri": {
-        "emissions": 154.5095604
+        "emissions": 155
     },
     "Georgia": {
-        "emissions": 149.1583539
+        "emissions": 149
     },
     "North Carolina": {
-        "emissions": 143.9527322
+        "emissions": 144
     },
     "Kentucky": {
-        "emissions": 138.7098237
+        "emissions": 139
     },
     "Alabama": {
-        "emissions": 135.325496
+        "emissions": 135
     },
     "Oklahoma": {
-        "emissions": 133.4829924
+        "emissions": 133
     },
     "Minnesota": {
-        "emissions": 126.8509595
+        "emissions": 127
     },
     "Wisconsin": {
-        "emissions": 122.508735
+        "emissions": 123
     },
     "Colorado": {
-        "emissions": 122.4961728
+        "emissions": 122
     },
     "Virginia": {
-        "emissions": 120.126862
+        "emissions": 120
     },
     "West Virginia": {
-        "emissions": 117.6945562
+        "emissions": 118
     },
     "Iowa": {
-        "emissions": 117.4045181
+        "emissions": 117
     },
     "Tennessee": {
-        "emissions": 111.4324522
+        "emissions": 111
     },
     "Kansas": {
-        "emissions": 109.0129063
+        "emissions": 109
     },
     "Arizona": {
-        "emissions": 100.0011839
+        "emissions": 100
     },
     "New Jersey": {
-        "emissions": 95.97725049
+        "emissions": 96
     },
     "North Dakota": {
-        "emissions": 88.38897957
+        "emissions": 88
     },
     "Arkansas": {
-        "emissions": 88.01264244
+        "emissions": 88
     },
     "Washington": {
-        "emissions": 86.13396231
+        "emissions": 86
     },
     "Nebraska": {
-        "emissions": 85.39246108
+        "emissions": 85
     },
     "Wyoming": {
-        "emissions": 83.72742621
+        "emissions": 84
     },
     "South Carolina": {
-        "emissions": 82.11888875
+        "emissions": 82
     },
     "Mississippi": {
-        "emissions": 79.35952579
+        "emissions": 79
     },
     "Utah": {
-        "emissions": 76.90595458
+        "emissions": 77
     },
     "New Mexico": {
-        "emissions": 75.83893091
+        "emissions": 76
     },
     "Maryland": {
-        "emissions": 62.57982197
+        "emissions": 63
     },
     "Massachusetts": {
-        "emissions": 62.19468652
+        "emissions": 62
     },
     "Montana": {
-        "emissions": 52.25060135
+        "emissions": 52
     },
     "Oregon": {
-        "emissions": 51.42849527
+        "emissions": 51
     },
     "Nevada": {
-        "emissions": 45.06104554
+        "emissions": 45
     },
     "South Dakota": {
-        "emissions": 42.21583064
+        "emissions": 42
     },
     "Connecticut": {
-        "emissions": 39.85992689
+        "emissions": 40
     },
     "Alaska": {
-        "emissions": 37.91546579
+        "emissions": 38
     },
     "Idaho": {
-        "emissions": 37.83128823
+        "emissions": 38
     },
     "Hawaii": {
-        "emissions": 17.14871378
+        "emissions": 17
     },
     "Maine": {
-        "emissions": 16.11855223
+        "emissions": 16
     },
     "New Hampshire": {
-        "emissions": 14.95375016
+        "emissions": 15
     },
     "Delaware": {
-        "emissions": 14.70525456
+        "emissions": 15
     },
     "Rhode Island": {
-        "emissions": 11.36979689
+        "emissions": 11
     },
     "Vermont": {
-        "emissions": 8.125117015
+        "emissions": 8
     },
     "Total": {
-        "emissions": 6304.114351
+        "emissions": 6304
     }
 }

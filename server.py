@@ -43,8 +43,7 @@ def macro():
     for st in data.keys():
         if st != "Total":
             states.append(st)
-            
-    return render_template("macro.html", states=states, dict=dict)
+    return render_template("macro.html", states=states, dict = dict)
 
 @app.route("/micro")
 def micro():
@@ -74,9 +73,9 @@ def micro():
     usTotal = data["Total"]["emissions"] / 50
     comp = ""
     if emissions < usTotal:
-        comp = "less"
+        comp = f"{usTotal - emissions} fewer MMTs of"
     else:
-        comp = "more"
+        comp = f"{emissions - usTotal} more MMTs of"
     return render_template("micro.html", sources=sources, vals=vals, state=state, emissions=emissions, usTypes=usTypes, usSources = usSources, usVals=usVals, usTotal=usTotal, states=states, comp=comp)
 
 app.run(debug=True)
